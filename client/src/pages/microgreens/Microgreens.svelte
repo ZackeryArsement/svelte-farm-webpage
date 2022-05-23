@@ -15,25 +15,39 @@
 
 <main>
     <div class='intro-container'>
-        <div class='main-title'>
-            What are Microgreens?
+        <div class='intro-container-inner'>
+            <div class='main-title'>
+                What are Microgreens?
+            </div>
+            <div class='intro-description'>
+                In the most general sense microgreens are young seedlings of vegetables, herbs, and other edible plants. A typical microgreen is only grown for about 10 days after planting, hence the name 'micro'-greens due to their limited growth. Not to be confused with sprouts, microgreens are grown in soil and under lighting, while a sprout is grown in the absence of both. This allows for microgreens to be far less likely to have any mold or fungal growth upon harvest, while still allowing for the same benefits that sprouts provide at an early harvest.
+            </div>
+            <div class='description-list'>
+                Harvesting after little growth has two major benefits:
+                <ul>
+                    <li>No Bitter Flavor</li>
+                    <li>More Concentrated Nutrients</li>
+                </ul>
+            </div>
+            <div class='intro-description'>
+                Since microgreens are harvested so young, the plant is low in chlorophyll concentrations and is therefore low in bitterness. This makes microgreens perfect for any dish that goes well with fresh greens, such as salads, sandwhiches, eggs, etc. The longer you grow the microgreen, the more bitter your sprout becomes! Typically you would like to harvest any microgreen as soon as its first 'true leaves' emerge from the plant.
+            </div>
+            <div class='intro-description'>
+                In addition to their great flavor, microgreens boast an impressive resume when it comes to health benefits. Since microgreens are harvested so young they have all the energy from their seed condensed into the plant. Essentially microgreens are harvested at the optimal time in terms of nutrients because the plant has not started using its energy to grow into a fully mature plant. Once the green starts working towards maturing, the energy density of the plant becomes less compact. A study done by the Journal of Agricultural and Food Chemistry back in 2012 found that microgreens contain on average 4-6 times more nutrients than their adult counterparts and in the case of red cabbage microgreens 40 times more vitamin E was found.
+            </div>
+            <div class='description-list'>
+                Additional Resources:
+                <ul>
+                    <li>
+                        <a href="https://integrisok.com/resources/on-your-health/2021/july/what-are-microgreens" target="_blank">Integris Health</a>
+                    </li>
+                    <li>
+                    <a href="https://totalgardener.com/why-microgreens-taste-bitter/" target="_blank">Total Gardener</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-        <div class='intro-description'>
-            In the most general sense microgreens are young seedlings of vegetables, herbs, and other edible plants. A typical microgreen is only grown for about 10 days after planting, hence the name 'micro'-greens due to their limited growth. Not to be confused with sprouts, microgreens are grown in soil and under lighting, while a sprout is grown in the absence of both. This allows for microgreens to be far less likely to have any mold or fungal growth upon harvest, while still allowing for the same benefits that sprouts provide at an early harvest.
-        </div>
-        <div class='description-list'>
-            Harvesting at such a young age has two major benefits:
-            <ul>
-                <li>No Bitter Flavor</li>
-                <li>More Concentrated Nutrients</li>
-            </ul>
-        </div>
-        <div class='intro-description'>
-            Since microgreens are harvested so young, the plant is low in chlorophyll concentrations and is therefore not bitter. This makes microgreens perfect for any dish that goes well with fresh greens, such as salads, sandwhiches, eggs, etc. The longer you grow the microgreen, the more bitter your sprout becomes! Typically you would like to harvest any microgreen as soon as its first 'true leaves' emerge from the plant.
-        </div>
-        <div class='intro-description'>
-            In addition to their great flavor, microgreens boast an impressive resume when it comes to health benefits. Since microgreens are harvested so young they have all the energy from their seed condensed into the plant. Essentially microgreens are harvested at the optimal time in terms of nutrients because the plant has not started using its energy to grow into a fully mature plant. Once the green starts working towards maturing, the energy density of the plant becomes less compact. A study done by the Journal of Agricultural and Food Chemistry back in 2012 found that microgreens contain on average 4-6 times more nutrients than their adult counterparts and in the case of red cabbage microgreens 40 times more vitamin E was found.
-        </div>
+
     </div>
 
     <div class='container-list'>
@@ -85,6 +99,8 @@
                                     {microgreen.longevity}
                                 </div>
                             </div>
+
+                            <a href={microgreen.infoLink} target="_blank">Further Information</a>
                         </div>
                     </div>
 
@@ -186,6 +202,12 @@
 </main>
 
 <style>
+    main{
+        padding: 8rem 0;
+        background-color: #dbc49b;
+        background-image: url('/images/backgrounds/cartographer.png');
+        /* https://transparenttextures.com/ */
+    }
     /* Elements */
     h1{
         padding: 1rem;
@@ -194,7 +216,6 @@
     img{
         height: 450px;
         width: 450px;
-        border-radius: 5px;
         background-color: aliceblue;
     }
     li{
@@ -207,18 +228,28 @@
 
     /* Intro */
     .intro-container{
-        padding: 2rem;
+        padding: 1rem;
+        margin: auto;
         margin-bottom: 10rem;
+        width: 1500px;
+        background-color: #433934;
+        border-radius: 5px;
+    }
+    .intro-container-inner{
+        background-color: #9c897c;
+        color: black;
+        padding: 1rem;
     }
     .main-title{
         font-size: 4rem;
         font-weight: 800;
         color: black;
+        margin-bottom: 2rem;
     }
     /*  */
     .container-list{
         background-color: #433934;
-        width: 1300px;
+        width: 1500px;
         border-radius: 5px;
         margin: auto;
         padding: 1rem;
@@ -253,7 +284,6 @@
         flex-wrap: wrap;
         margin: 3rem auto;
         padding: 0.5rem;
-        border-radius: 5px;
         width: 1200px;
     }
     .content{
@@ -262,7 +292,6 @@
         width: 720px;
         padding: 0.5rem;
         background-color: #eaeaea;
-        border-radius: 5px;
         margin-left: 10px;
     }
     .body{
@@ -321,6 +350,7 @@
         padding: 0.5rem;
         font-size: 2rem;
         font-weight: 500;
+        border-radius: 0;
     }
     .drop-info{
         background-color: #d1d1d1;

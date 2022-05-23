@@ -10,3 +10,13 @@
         <a href="https://www.flaticon.com/free-icons/next" title="next icons">Next icons created by Kiranshastry - Flaticon</a>
     </div>
 </main>
+
+<style>
+    main{
+        display: flex;
+        justify-content: center;
+        padding: 3rem;
+        height: 5rem;
+        background-color: rgb(207, 207, 207);
+    }
+</style>

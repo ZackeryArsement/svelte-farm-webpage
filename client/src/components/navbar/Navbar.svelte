@@ -89,7 +89,7 @@
     main{
         display: flex;
         width: 190px;
-        position: absolute;
+        position: fixed;
 		top: 50%;
         left: 0;
         transform: translate(0, -50%);
