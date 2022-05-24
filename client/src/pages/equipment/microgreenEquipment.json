@@ -1,0 +1,149 @@
+
+{
+    "traysAndShelves": [
+        {
+            "name": "6-Shelf Metal Rack",
+            "image": "images/pages/equipment/equipment/shelves.jpg",
+            "price": "$90.88",
+            "link": "https://www.amazon.com/gp/product/B019GNRJPU/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&th=1"
+        },
+        {
+            "name": "Boostrap 10\"x20\" Trays (w/ Holes) 10-30 Pack",
+            "image": "images/pages/equipment/equipment/trayHoles.jpg",
+            "price": "$66.49-164.99",
+            "link": "https://www.amazon.com/gp/product/B081Y2HFC8/ref=ppx_yo_dt_b_asin_title_o07_s00?ie=UTF8&th=1"
+        },
+        {
+            "name": "Boostrap 10\"x20\" Trays (No Holes) 10 Pack",
+            "image": "images/pages/equipment/equipment/trayNoHoles.jpg",
+            "price": "$66.49",
+            "link": "https://www.amazon.com/gp/product/B07NV1P539/ref=ppx_yo_dt_b_asin_title_o07_s00?ie=UTF8&psc=1"
+        },
+        {
+            "name": "Sunblaster 4' 6400K Lamp 1-4 Pack",
+            "image": "images/pages/equipment/equipment/lights.jpg",
+            "price": "$59.99-230.99",
+            "link": "https://www.amazon.com/gp/product/B00AKKUEV0/ref=ppx_yo_dt_b_asin_title_o08_s00?ie=UTF8&th=1"
+        }
+    ],
+    "miscellaneous": [
+        {
+            "name": "Thermometer/Humidity Gauge",
+            "image": "images/pages/equipment/equipment/thermometer.jpg",
+            "price": "$11.99",
+            "link": "https://www.amazon.com/gp/product/B01H1R0K68/ref=ppx_yo_dt_b_asin_title_o09_s00?ie=UTF8&psc=1"
+        },
+        {
+            "name": "Digital Weight Scale",
+            "image": "images/pages/equipment/equipment/scale.jpg",
+            "price": "$13.99",
+            "link": "https://www.amazon.com/gp/product/B0113UZJE2/ref=ppx_yo_dt_b_asin_title_o06_s00?ie=UTF8&th=1"
+        },
+        {
+            "name": "Paint Strainers (for seed soaking)",
+            "image": "images/pages/equipment/equipment/strainers.jpg",
+            "price": "$13.55",
+            "link": "https://www.amazon.com/gp/product/B0855MNTV2/ref=ppx_yo_dt_b_asin_title_o06_s00?ie=UTF8&th=1"
+        },
+        {
+            "name": "3-Speed Fan",
+            "image": "images/pages/equipment/equipment/fan.jpg",
+            "price": "$24.67",
+            "link": "https://www.amazon.com/Comfort-Zone-Portable-Office-Velocity/dp/B001MEK8R8/ref=sr_1_2?crid=3N0AX6G97HJ9T&keywords=mainstay+12+inch+fan&qid=1653356082&sprefix=mainstay+12+inch+fan%2Caps%2C136&sr=8-2"
+        },
+        {
+            "name": "Power Strip",
+            "image": "images/pages/equipment/equipment/powerStrip.jpg",
+            "price": "$14.99",
+            "link": "https://www.amazon.com/Belkin-6-Outlet-5-Foot-Right-Angled-F9P609-05R-DP/dp/B002SJFC2M/ref=sr_1_19?crid=38GHE6UIQD543&keywords=power+strip&qid=1653356412&sprefix=power+strip%2Caps%2C184&sr=8-19"
+        }
+    ],
+    "market": [
+        {
+            "name": "9\"x5.4\" Containers (250 case)",
+            "image": "images/pages/equipment/market/containersLarge.jpg",
+            "price": "$98.99",
+            "link": "https://www.amazon.com/gp/product/B004NG8BPI/ref=ppx_yo_dt_b_asin_title_o01_s00?ie=UTF8&psc=1"
+        },
+        {
+            "name": "5.3\"x5.4\" Containers (500 case)",
+            "image": "images/pages/equipment/market/containersSmall.jpg",
+            "price": "$101.00",
+            "link": "https://www.amazon.com/gp/product/B004NG8BQM/ref=ppx_yo_dt_b_asin_title_o01_s00?ie=UTF8&psc=1"
+        },
+        {
+            "name": "Biodegradable Eco Bags (1000 Pack)",
+            "image": "images/pages/equipment/market/bags.jpg",
+            "price": "$108.64",
+            "link": "https://www.amazon.com/gp/product/B08ND3M38P/ref=ppx_yo_dt_b_asin_title_o04_s00?ie=UTF8&psc=1"
+        },
+        {
+            "name": "Kraft Labels (300 Pack)",
+            "image": "images/pages/equipment/market/labels.jpg",
+            "price": "$9.19",
+            "link": "https://www.amazon.com/gp/product/B07NTYFBVQ/ref=ppx_yo_dt_b_asin_title_o02_s00?ie=UTF8&th=1"
+        },
+        {
+            "name": "Produce Bags (350 Pack)",
+            "image": "images/pages/equipment/market/produceBags.jpg",
+            "price": "$16.38",
+            "link": "https://www.amazon.com/gp/product/B00FERHTF8/ref=ppx_yo_dt_b_asin_title_o09_s00?ie=UTF8&th=1"
+        }
+    ],
+    "seeds": [
+        {
+            "name": "Sunflower - Black Oil (Organic) 1lb-25lb",
+            "image": "images/pages/equipment/seeds/sunflower.jpg",
+            "price": "$14.6-184.85",
+            "link": "https://www.trueleafmarket.com/products/sunflower-sprouting-black-oil-organic-seeds?variant=38494671240"
+        },
+        {
+            "name": "Alfalfa (Organic) 4oz-25lb",
+            "image": "images/pages/equipment/seeds/alfalfa.jpg",
+            "price": "$7-235.36",
+            "link": "https://www.trueleafmarket.com/products/alfalfa-sprouting-organic"
+        },
+        {
+            "name": "Radish - Purple 1oz-25lb",
+            "image": "images/pages/equipment/seeds/radishPurple.jpg",
+            "price": "$4.68-242.38",
+            "link": "https://www.trueleafmarket.com/products/purple-radish-microgreens-seeds?variant=31597779746931"
+        },
+        {
+            "name": "Radish - China Rose (Organic) 1oz-25lb",
+            "image": "images/pages/equipment/seeds/radishChinaRose.jpg",
+            "price": "$6.18-258.95",
+            "link": "https://www.trueleafmarket.com/products/radish-seeds-china-rose-organic-microgreens-seeds?variant=12620084117619"
+        },
+        {
+            "name": "Basil - Italian Large Leaf 1oz-25lb",
+            "image": "images/pages/equipment/seeds/basilLarge.jpg",
+            "price": "$6.89-430.54",
+            "link": "https://www.trueleafmarket.com/products/basil-seeds-italian-large-leaf-microgreens-seeds?variant=29360995106931"
+        },
+        {
+            "name": "Basil - Sweet (Organic) 1oz-25lb",
+            "image": "images/pages/equipment/seeds/basilSweet.jpg",
+            "price": "$8.02-822.47",
+            "link": "https://www.trueleafmarket.com/products/basil-seeds-sweet-organic-microgreens?variant=32213974581363"
+        },
+        {
+            "name": "Broccoli 1oz-25lb",
+            "image": "images/pages/equipment/seeds/broccoli.jpg",
+            "price": "$4.86-186.46",
+            "link": "https://www.trueleafmarket.com/products/broccoli-microgreens-seed-mix?variant=31772083224691"
+        },
+        {
+            "name": "Broccoli - Di Cicco (Organic) 1oz-25lb",
+            "image": "images/pages/equipment/seeds/broccoliDiCicco.jpg",
+            "price": "$6.58-448.63",
+            "link": "https://www.trueleafmarket.com/products/broccoli-seeds-di-cicco-organic-microgreens-seeds?variant=39407197945971"
+        },
+        {
+            "name": "Sweet Pea - Speckled (Organic) 25g-25lb",
+            "image": "images/pages/equipment/seeds/sweetPea.jpg",
+            "price": "$2.99-82.41",
+            "link": "https://www.trueleafmarket.com/products/pea-sprouting-speckled-organic?variant=39470787784"
+        }
+    ]
+}

@@ -1,6 +1,6 @@
 [{
     "name": "Sunflowers",
-    "img": "images/pages/microgreens/sunflowers.png",
+    "img": "images/pages/microgreens/sunflower.jpg",
     "description": "Our sunflower microgreens are a fan favorite among friends, family, and customers and are my personal all around favorite! With a slight nutty flavor and a nice crunch, the sunflower microgreens are a great, healthy green snack for any time of the day (These are the only microgreens I eat regularly by themselves). I also love to put the sunflowers microgreens in my eggs and salads! Sunflower microgreens are a great source of many vitamins, essential metals, essential amino acids, and Lecithin, which host a wide array of benefits!",
     "flavor": "Nutty",
     "texture": "Crunchy",
@@ -19,7 +19,7 @@
 },
 {
     "name": "Sweet Peas",
-    "img": "images/pages/microgreens/sweetpeas.png",
+    "img": "images/pages/microgreens/sweetpea.jpg",
     "description": "Our sweet pea microgreens are a great addition to any meal! With a classic pea flavor and a mild sweetness, these microgreens go well in any dish, whether it be a soup, salad, sandwhich, or a even a sweet pea pesto. On top of hosting the icon pea flavor, sweet pea microgreens are densely packed with vitamins, essential metals, protein, and phytoestrogens!",
     "flavor": "Pea Flavor; Sweet",
     "texture": "Fibery; Slight Crunch",
@@ -38,7 +38,7 @@
 },
 {
     "name": "Radish",
-    "img": "images/pages/microgreens/radish.png",
+    "img": "images/pages/microgreens/radishChinaRose.jpg",
     "description": "If you love the flavor of a mature radish bulb then you will love our radish microgreens. Our radish microgreens have that same peppery spice and are great to add into a salad, wrap, or just as a garnish to spice up a meal. A couple of these sprouts pack a good punch and are a great way to get that radish flavor without having to cut up a radish bulb. In addition to their flavor, radish microgreens have a beautiful redish/purplish tint to them and like all our microgreens are packed with nutrients such as vitamins, essential metals, essential amino acids, and antioxidants!",
     "flavor": "Spicy/Peppery",
     "texture": "Crunchy",
@@ -57,7 +57,7 @@
 },
 {
     "name": "Broccoli",
-    "img": "images/pages/microgreens/broccoli.png",
+    "img": "images/pages/microgreens/broccoli.jpg",
     "description": "Although all of our microgreens are dense in nutrients, our broccoli microgreens are the ultimate power house of nutritional and health benefits! Like the others, broccoli microgreens are dense with vitamins and essential metals, but broccoli microgreens also contain a phytochemical called sulforaphane. Sulforaphane neutralizes toxins, reduces inflammation, and has been shown to slow tumor growth and block DNA mutations that lead to cancer! Broccoli microgreens taste great and are a popular choice for sandwhiches; I personally love them with my eggs.",
     "flavor": "Strong Broccoli; (some say slightly bitter/peppery)",
     "texture": "Slight Crunch",
@@ -77,7 +77,7 @@
 },
 {
     "name": "Alfalfa",
-    "img": "images/pages/microgreens/alfalfa.png",
+    "img": "images/pages/microgreens/alfalfa.jpg",
     "description": "Alfalfa microgreens are one of the fan favorites for sandwhiches and wraps (They are my personal favorite for a sandwhich). With a nice crunch, alfalfa microgreens add a nice fresh, green flavor to a sandwhich without overwhelming the taste of the rest of the sandwhich. If you like lettuce on your sandwhiches or burgers I would highly recommend switching to alfalfa microgreens, since they give that fresh flavor while also giving you tremendous amounts of nutrients that lettuce lacks. Alfalfa microgreens are high in vitamins, essential metals, antioxidants, phytoestrogens, and help improve metabolic health.",
     "flavor": "Fresh & Green",
     "texture": "Very Crunchy",
@@ -97,7 +97,7 @@
 },
 {
     "name": "Basil",
-    "img": "images/pages/microgreens/basil.png",
+    "img": "images/pages/microgreens/basilLarge.jpg",
     "description": "Don't be fooled! The basil microgreens, although similar in flavor, are not the same as a regular mature basil! Basil microgreens have a very strong basil flavor, some describe it as a licorice-like flavor, and has all of that basil flavor compact into a little sprout. I love taking a few sprouts and putting them onto any dish that I want to add a little flavor kick into, such as pizza, lasagna, and sometimes my egg sandwhiches or salads. Basil microgreens are also a great source of antioxidants, vitamins, essential metals, omega-3 fatty acids, and has anti-inflammatory effects!",
     "flavor": "Strong Basil; Slightly Licorice",
     "texture": "Slight Crunch",

@@ -58,7 +58,7 @@
             <div class='container'>
                 <!-- Image Div -->
                 <div>
-                    <img src={Sprouts} alt='Sprout'/>
+                    <img src={microgreen.img} alt='Sprout'/>
                 </div>
 
                 <!-- Content Div -->
@@ -209,10 +209,6 @@
         /* https://transparenttextures.com/ */
     }
     /* Elements */
-    h1{
-        padding: 1rem;
-        margin: auto;
-    }
     img{
         height: 450px;
         width: 450px;
