@@ -26,20 +26,20 @@
             bg: "#41874a",
             brd: "#5ab867"
         },
-        {
-            ref: PumpkinIcon,
-            link: "/pumpkins",
-            alt: "Pumpkin Icon",
-            bg: "#e79111",
-            brd: "#ffbc57"
-        },
-        {
-            ref: MushroomIcon,
-            link: "/mushrooms",
-            alt: "Mushroom Icon",
-            bg: "#d4ed94",
-            brd: "#aac272"
-        },
+        // {
+        //     ref: PumpkinIcon,
+        //     link: "/pumpkins",
+        //     alt: "Pumpkin Icon",
+        //     bg: "#e79111",
+        //     brd: "#ffbc57"
+        // },
+        // {
+        //     ref: MushroomIcon,
+        //     link: "/mushrooms",
+        //     alt: "Mushroom Icon",
+        //     bg: "#d4ed94",
+        //     brd: "#aac272"
+        // },
         {
             ref: ToolsIcon,
             link: "/equipment",

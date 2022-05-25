@@ -254,7 +254,7 @@
         text-align: left;
         margin-top: 1.5rem;
         padding: 0 1rem;
-        font-size: 1.2rem;
+        font-size: 1.5rem;
         line-height: 1.70rem;
     }
     .description-list{

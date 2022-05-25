@@ -8,7 +8,7 @@
         <div class='header'>
             Equipment
         </div>
-        <div class='sub-headers'>
+        <!-- <div class='sub-headers'>
             <div>
                 Microgreens
             </div>
@@ -18,7 +18,7 @@
             <div>
                 Mushrooms
             </div>
-        </div>
+        </div> -->
     </div>
 
     {#each microgreenEquipments as equipmentType}
@@ -75,7 +75,7 @@
         padding-bottom: 1.5rem;
         color: #cdcdcd;
     }
-    .sub-headers{
+    /* .sub-headers{
         background-color: #1a1a1a;
         margin: auto;
         display: flex;
@@ -84,7 +84,7 @@
         padding-bottom: 1rem;
         color: #cdcdcd;
         justify-content: space-around;
-    }
+    } */
 
     /* Title */
     .title{

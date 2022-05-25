@@ -47,6 +47,9 @@
             Contact Information
         </div>
         <div class='paragraph'>
+            All of our seeds are purchased through <a href="https://www.trueleafmarket.com/" target="_blank">True Leaf Market</a>. Check out their website!
+        </div>
+        <div class='paragraph'>
             If you have any questions or concerns please contact us via email: <a href = "mailto: arsementfarms@gmail.com">arsementfarms@gmail.com</a>
         </div>
         <div class='paragraph italics'>
@@ -59,6 +62,10 @@
         <div class='paragraph'>
             Has any of our information helped you on your journey to become your own grower? Please feel free to donate to the farm!
         </div>
+        <div class='paragraph'>
+            <a href="https://www.paypal.com/donate/?hosted_button_id=S9D87PK45QUCJ" target="_blank">Support the Farm!</a>
+        </div>
+
     </div>
 </main>
 
