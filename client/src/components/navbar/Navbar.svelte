@@ -52,7 +52,6 @@
             link: "/questions",
             alt: "Question Icon",
             bg: "#b1aeac",
-            brd: "#724a1b",
             brd: "#676767"
         },
     ]

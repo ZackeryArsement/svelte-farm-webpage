@@ -17,55 +17,59 @@
             <img  class="jumbotron" src={jumbotron} alt="Home"/>
         </div>
 
-        <div class='intro'>
-            Welcome to the Farm!
+        <div class='description'>
+            <div class='intro'>
+                Welcome to the Farm!
+            </div>
+    
+            <div class='paragraph'>
+                We are a small local farm from Kountze, Texas that specializes in microgreens! Currently we only supply microgreens through the Beaumont Farmers Market, which is open every <b class="bold">Saturday from 8AM-11AM</b>, located at <b class="bold"><a href="https://www.google.com/maps/place/Beaumont+Farmers+Market/@30.0671471,-94.1703095,18z/data=!4m5!3m4!1s0x863ecc9500865969:0xa66a1d8e8d943660!8m2!3d30.0672655!4d-94.1693251" target="_blank">6525 College St. Beaumont, TX</a></b>.
+            </div>
+            <div class='paragraph'>
+                Check us out on Facebook: <a href='https://www.facebook.com/ArsementFarms' target='_blank'>Arsement Farms</a>
+            </div>
+            <div class='intro'>
+                Our Mission
+            </div>
+            <div class='paragraph'>
+                Our number one goal and hope for Arsement Farms is to introduce the community to a product that many may be unfamiliar with. Interacting with individuals at the farmers market, it has become evident that many people don't know about the healthy goodness of microgreens! Check out our <Router><Link to='/microgreens'><b class="bold">microgreen</b></Link></Router> page to learn more!
+            </div>
+            <div class='paragraph'>
+                Our farm strives for transparency and we would love to help others on their journey to becoming growers themselves! Because of this, all equipment used and seeds we buy will be listed on our website! Check out our <Router><Link to='/equipment'><b class="bold">equipment</b></Link></Router> page to learn more!
+            </div>
+            <div class='intro'>
+                Future Goals
+            </div>
+            <div class='paragraph'>
+                Although we currently specialize solely in microgreens, we have plans to expand into other areas of untouched health niches of our local food market. As these plans come closer to fruition we will be sharing additional information on these market adventures!
+            </div>
+            <div class='paragraph bold'>
+                Please Join us in our Growth as a Supplier of Healthy Foods!
+            </div>
+    
+            <div class='intro'>
+                Contact Information
+            </div>
+            <div class='paragraph'>
+                All of our seeds are purchased through <a href="https://www.trueleafmarket.com/" target="_blank">True Leaf Market</a>. Check out their website!
+            </div>
+            <div class='paragraph'>
+                If you have any questions or concerns please contact us via email: <a href = "mailto: arsementfarms@gmail.com">arsementfarms@gmail.com</a>
+            </div>
+            <div class='paragraph italics'>
+                We do sell and deliver if you would like to purchase in bulk on a recuring schedule or for any special event. However, due to the grow time of our microgreens we will need a 14 day (2 week) notice for any special order. Please email me for further information!
+            </div>
+    
+            <div class='intro'>
+                Donations
+            </div>
+            <div class='paragraph'>
+                Has any of our information helped you on your journey to become your own grower? Please feel free to donate to the farm!
+            </div>
+            <div class='paragraph'>
+                <a href="https://www.paypal.com/donate/?hosted_button_id=S9D87PK45QUCJ" target="_blank">Support the Farm!</a>
+            </div>
         </div>
-
-        <div class='paragraph'>
-            We are a small local farm from Kountze, Texas that specializes in microgreens! Currently we only supply microgreens through the Beaumont Farmers Market, which is open every <b class="bold">Saturday from 8AM-11AM</b>, located at <b class="bold"><a href="https://www.google.com/maps/place/Beaumont+Farmers+Market/@30.0671471,-94.1703095,18z/data=!4m5!3m4!1s0x863ecc9500865969:0xa66a1d8e8d943660!8m2!3d30.0672655!4d-94.1693251" target="_blank">6525 College St. Beaumont, TX</a></b>.
-        </div>
-        <div class='intro'>
-            Our Mission
-        </div>
-        <div class='paragraph'>
-            Our number one goal and hope for Arsement Farms is to introduce the community to a product that many may be unfamiliar with. Interacting with individuals at the farmers market, it has become evident that many people don't know about the healthy goodness of microgreens! Check out our <Router><Link to='/microgreens'><b class="bold">microgreen</b></Link></Router> page to learn more!
-        </div>
-        <div class='paragraph'>
-            Our farm strives for transparency and we would love to help others on their journey to becoming growers themselves! Because of this, all equipment used and seeds we buy will be listed on our website! Check out our <Router><Link to='/equipment'><b class="bold">equipment</b></Link></Router> page to learn more!
-        </div>
-        <div class='intro'>
-            Future Goals
-        </div>
-        <div class='paragraph'>
-            Although we currently specialize solely in microgreens, we have plans to expand into other areas of untouched health niches of our local food market. As these plans come closer to fruition we will be sharing additional information on these market adventures!
-        </div>
-        <div class='paragraph bold'>
-            Please Join us in our Growth as a Supplier of Healthy Foods!
-        </div>
-
-        <div class='intro'>
-            Contact Information
-        </div>
-        <div class='paragraph'>
-            All of our seeds are purchased through <a href="https://www.trueleafmarket.com/" target="_blank">True Leaf Market</a>. Check out their website!
-        </div>
-        <div class='paragraph'>
-            If you have any questions or concerns please contact us via email: <a href = "mailto: arsementfarms@gmail.com">arsementfarms@gmail.com</a>
-        </div>
-        <div class='paragraph italics'>
-            We do sell and deliver if you would like to purchase in bulk on a reoccuring schedule or for any special event. However, due to the grow time of our microgreens we will need a 14 day (2 week) notice for any special order. Please email me for further information!
-        </div>
-
-        <div class='intro'>
-            Donations
-        </div>
-        <div class='paragraph'>
-            Has any of our information helped you on your journey to become your own grower? Please feel free to donate to the farm!
-        </div>
-        <div class='paragraph'>
-            <a href="https://www.paypal.com/donate/?hosted_button_id=S9D87PK45QUCJ" target="_blank">Support the Farm!</a>
-        </div>
-
     </div>
 </main>
 
@@ -116,4 +120,50 @@
     .italics{
         font-style: italic;
     }
+
+    /* Below 1000 view width */
+    @media (max-width: 1000px) {
+        .jumbotron{
+            width: 600px;
+        }
+
+        /* Paragraph Contents */
+        .content{
+            width: 600px;
+            margin-bottom: 7rem;
+        }
+        .intro{
+            font-size: 2.5rem;
+        }
+        .paragraph{
+            font-size: 1.25rem;
+            line-height: 1.5rem;
+        }
+	}
+
+    /* Below 600 view width */
+    @media (max-width: 600px) {
+        .jumbotron{
+            width: 100%;
+        }
+        .logo{
+            height: 110px;
+            object-fit: cover;
+            margin-top: -12px;
+        }
+        .header{
+            padding: 1rem 0;
+        }
+        .header-border{
+            height: 70px;
+        }
+        /* Paragraph Contents */
+        .content{
+            width: 100%;
+            margin-bottom: 3rem;
+        }
+        .description{
+            padding: 1rem;
+        }
+	}
 </style>

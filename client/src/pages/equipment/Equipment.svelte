@@ -21,29 +21,29 @@
         </div> -->
     </div>
 
-    {#each microgreenEquipments as equipmentType}
-        <div>
-            <div class="title">
-                {equipmentType[Object.keys(equipmentType)[1]]}
-            </div>
-        
-            <div class="scroller">
-                {#each equipmentType[Object.keys(equipmentType)[0]] as equipment}
-                    <div class="item bg-green">
-                        <img src={equipment.image} alt={equipment.name}/>
-        
-                        <div>
-                            <div class="item-name">{equipment.name}</div>
-                            <div class="item-price">{equipment.price}</div>
-                            <a href={equipment.link} target="_blank" class="item-link">Purchase Here!</a>
+    <div class='body'>
+        {#each microgreenEquipments as equipmentType}
+            <div>
+                <div class="title">
+                    {equipmentType[Object.keys(equipmentType)[1]]}
+                </div>
+            
+                <div class="scroller">
+                    {#each equipmentType[Object.keys(equipmentType)[0]] as equipment}
+                        <div class="item bg-green">
+                            <img src={equipment.image} alt={equipment.name}/>
+            
+                            <div>
+                                <div class="item-name">{equipment.name}</div>
+                                <div class="item-price">{equipment.price}</div>
+                                <a href={equipment.link} target="_blank" class="item-link">Purchase Here!</a>
+                            </div>
                         </div>
-                    </div>
-                {/each}
+                    {/each}
+                </div>
             </div>
-        </div>
-    {/each}
-
-    
+        {/each}
+    </div>   
 </main>
 
 <style>
@@ -63,6 +63,11 @@
         scrollbar-width: auto;
         scrollbar-color: black;
     }
+    .body{
+        width: 1500px;
+        margin: auto;
+        padding-bottom: 10rem;
+    }
 
     /* Header stylings */
     .headers{
@@ -71,8 +76,9 @@
     .header{
         background-color: black;
         font-size: 4rem;
-        padding-top: 1.5rem;
-        padding-bottom: 1.5rem;
+        font-weight: 800;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
         color: #cdcdcd;
     }
     /* .sub-headers{

@@ -6,7 +6,7 @@
 
 <main>
     <div class="credit">
-        Like the webpage? I created it myself! Check out my Github, LinkedIn, and Portfolio!
+        Like the webpage? Check out our developers Github, LinkedIn, and Portfolio!
     </div>
 
     <div class="credit">
@@ -32,6 +32,7 @@
         <a href="https://www.flaticon.com/free-icons/question-mark" title="question mark icons">Question mark icons created by Freepik - Flaticon</a>
         <a href="https://www.flaticon.com/free-icons/arrow-left" title="arrow left icons">Arrow left icons created by pictogramer - Flaticon</a>
         <a href="https://www.flaticon.com/free-icons/next" title="next icons">Next icons created by Kiranshastry - Flaticon</a>
+        <a href="https://www.flaticon.com/free-icons/thought" title="thought icons">Thought icons created by winnievinzence - Flaticon</a>
     </div>
 </main>
 

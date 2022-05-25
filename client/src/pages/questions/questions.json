@@ -1,0 +1,47 @@
+[
+    {
+        "question": "Are we organic growers?",
+        "answer": [
+            "We are not certified organic. However, we do not use any fertilizers or pesticides and we use only certified organic soil with most of our seeds also being certified organic."
+        ]
+    },
+    {
+        "question": "Do I need to wash the greens before eating?",
+        "answer": [
+            "Since we do not use any fertilizers or pesticides our greens do not have to be washed. You can eat them straight out of the container if you would like! If you do wish to wash your greens then we highly recommend only washing the amount you plan on eating for that meal. To elaborate, if you plan on eating half a container of broccoli do not wash all of them at once; only wash the half you plan on eating. This will reduce the moisture content of the microgreens in their container and allow for longer storage."
+        ]
+    },
+    {
+        "question": "Should I refrigerate my microgreens?",
+        "answer": [
+            "Yes, we highly recommend refrigerating your microgreens in order to achieve a longer shelf life."
+        ]
+    },
+    {
+        "question": "What is the expected shelf life of microgreens?",
+        "answer": [
+            "This varies depending on the variety of microgreens. Sunflower, sweetpeas, and alfalfa will last over 1.5 weeks while the rest you will want to eat within a week."
+        ]
+    },
+    {
+        "question": "Can I plant your microgreens and grow them?",
+        "answer": [
+            "No, as far as we are aware our microgreens will not root if you attempt to plant them in the soil. Our microgreens are meant for eating.",
+            "If you would like to learn how to grow microgreens don't hesitate to ask! We list all of our seeds, equipment, and growing information on our webisite. There are also countless videos on youtube on how to grow microgreens!"
+        ]
+    },
+    {
+        "question": "Are microgreens safe for my pet?",
+        "answer": [
+            "We highly encourage verifying the specific microgreen variety before feeding it to your pet to ensure that they do not contain anything unsafe for your species of pet.",
+            "With that said our dog loves when we feed her microgreens, and we have several customers buy them for their rabbits, birds, lizards, etc. "
+        ]
+    },
+    {
+        "question": "What is your healthiest microgreens?",
+        "answer": [
+            "All microgreens varieties are dense in nutrients and it is difficult to say which one would be the healthiest. If we had to choose one, we would say the broccoli microgreens have the most health benefits due to its high sulforaphane content.",
+            " This is a reflection of our opinion is by no means a  health professional statement."
+        ]
+    }
+]
