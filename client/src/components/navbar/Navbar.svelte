@@ -1,6 +1,4 @@
 <script>
-    import 'src\components\navbar\Navbar.css'
-
     import { Router, Link } from "svelte-navigator"
 
     let leftArrow = true

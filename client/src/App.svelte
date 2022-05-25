@@ -20,12 +20,7 @@
 		padding: 0;
 	}
 
-	.display{
-		/* position: relative;
-		top: -20px; */
-	}
-
-	@media (min-width: 640px) {
+	@media (min-width: 320px) {
 		main {
 			max-width: none;
 		}
