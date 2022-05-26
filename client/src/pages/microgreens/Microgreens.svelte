@@ -1,7 +1,4 @@
 <script>
-    // let Sunflowers = 'images/pages/microgreens/sunflowers.png'
-    let Sprouts = 'images/navbar/sprout.png'
-
     import microgreens from './microgreens.json'
 
     let dropDownNutrition = [];
@@ -53,147 +50,149 @@
         </div>
     </div>
 
-    <div class='container-list'>
+    <div>
         <div class='main-title'>
             Our Microgreens
         </div>
-        {#each microgreens as microgreen, index}
-            <div class='container-border'>
-                <div class='container'>
-                    <!-- Image Div -->
-                    <div>
-                        <img src={microgreen.img} alt='Sprout'/>
-                    </div>
-    
-                    <!-- Content Div -->
-                    <div class='content'>
-                        <div class='title'>
-                            {microgreen.name}
-                        </div>
-    
-                        <div class='body'>
-                            <div class='description'>
-                                {microgreen.description}
-                            </div>
-    
-                            <div class='eating'>
-                                <div class='eat'>
-                                    <div class='eat-title'>
-                                        Flavor:
-                                    </div>
-                                    <div class='eat-description'>
-                                        {microgreen.flavor}
-                                    </div>
-                                </div>
-    
-                                <div class='eat'>
-                                    <div class='eat-title'>
-                                       Texture:
-                                    </div>
-                                    <div class='eat-description'>
-                                        {microgreen.texture}
-                                    </div>
-                                </div>
-    
-                                <div class='eat'>
-                                    <div class='eat-title'>
-                                        Est. Longevity:
-                                    </div>
-                                    <div class='eat-description'>
-                                        {microgreen.longevity}
-                                    </div>
-                                </div>
-    
-                                <a href={microgreen.infoLink} target="_blank">Further Information</a>
-                            </div>
-                        </div>
-    
-                    </div>
-    
-                    <!-- Drop Down Div -->
-                    <div class='button-list'>
-                        <!-- Nutritional Facts -->
+        <div class='container-list'>
+            {#each microgreens as microgreen, index}
+                <div class='container-border'>
+                    <div class='container'>
+                        <!-- Image Div -->
                         <div>
-                            <button class='button-drop' on:click={() => dropDownNutrition[index] = !dropDownNutrition[index]}>Nutritional Facts</button>
-                            <div class='drop-info' style={dropDownNutrition[index] ? 'display: block;' : 'display: none;'}>
+                            <img src={microgreen.img} alt='Sprout'/>
+                        </div>
+        
+                        <!-- Content Div -->
+                        <div class='content'>
+                            <div class='title'>
+                                {microgreen.name}
+                            </div>
+        
+                            <div class='body'>
+                                <div class='description'>
+                                    {microgreen.description}
+                                </div>
+        
                                 <div class='eating'>
                                     <div class='eat'>
                                         <div class='eat-title'>
-                                            Vitamins:
+                                            Flavor:
                                         </div>
                                         <div class='eat-description'>
-                                            {microgreen.vitamins}
+                                            {microgreen.flavor}
                                         </div>
                                     </div>
         
                                     <div class='eat'>
                                         <div class='eat-title'>
-                                           Essential Metals:
+                                        Texture:
                                         </div>
                                         <div class='eat-description'>
-                                            {microgreen.metals}
+                                            {microgreen.texture}
                                         </div>
                                     </div>
         
                                     <div class='eat'>
                                         <div class='eat-title'>
-                                            Additional:
+                                            Est. Longevity:
                                         </div>
                                         <div class='eat-description'>
-                                            <ul>
-                                                {#each microgreen.extras as extra}
-                                                    <li>
-                                                        {#if extra.slice(0,5) === 'https'}
-                                                            <a href={extra.split(' ')[0]} target='_blank'>{extra.split(' ')[1]}</a>
-                                                        {:else}
-                                                            {extra}
-                                                        {/if}
-                                                    </li>
-                                                {/each}
-                                            </ul>
+                                            {microgreen.longevity}
+                                        </div>
+                                    </div>
+        
+                                    <a href={microgreen.infoLink} target="_blank" class="further-info">Further Information</a>
+                                </div>
+                            </div>
+        
+                        </div>
+        
+                        <!-- Drop Down Div -->
+                        <div class='button-list'>
+                            <!-- Nutritional Facts -->
+                            <div>
+                                <button class='button-drop' on:click={() => dropDownNutrition[index] = !dropDownNutrition[index]}>Nutritional Facts</button>
+                                <div class='drop-info' style={dropDownNutrition[index] ? 'display: block;' : 'display: none;'}>
+                                    <div class='eating'>
+                                        <div class='eat'>
+                                            <div class='eat-title'>
+                                                Vitamins:
+                                            </div>
+                                            <div class='eat-description'>
+                                                {microgreen.vitamins}
+                                            </div>
+                                        </div>
+            
+                                        <div class='eat'>
+                                            <div class='eat-title'>
+                                            Essential Metals:
+                                            </div>
+                                            <div class='eat-description'>
+                                                {microgreen.metals}
+                                            </div>
+                                        </div>
+            
+                                        <div class='eat'>
+                                            <div class='eat-title'>
+                                                Additional:
+                                            </div>
+                                            <div class='eat-description'>
+                                                <ul>
+                                                    {#each microgreen.extras as extra}
+                                                        <li>
+                                                            {#if extra.slice(0,5) === 'https'}
+                                                                <a href={extra.split(' ')[0]} target='_blank'>{extra.split(' ')[1]}</a>
+                                                            {:else}
+                                                                {extra}
+                                                            {/if}
+                                                        </li>
+                                                    {/each}
+                                                </ul>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <!-- Growing Facts -->
-                        <div>
-                            <button  class='button-drop' on:click={() => dropDownGrowing[index] = !dropDownGrowing[index]}>Growing Facts</button>
-                            <div class='drop-info' style={dropDownGrowing[index] ? 'display: block;' : 'display: none;'}>
-                                <div class='eating'>
-                                    <div class='eat'>
-                                        <div class='eat-title'>
-                                            Soak Seeds:
+                            <!-- Growing Facts -->
+                            <div>
+                                <button  class='button-drop' on:click={() => dropDownGrowing[index] = !dropDownGrowing[index]}>Growing Facts</button>
+                                <div class='drop-info' style={dropDownGrowing[index] ? 'display: block;' : 'display: none;'}>
+                                    <div class='eating'>
+                                        <div class='eat'>
+                                            <div class='eat-title'>
+                                                Soak Seeds:
+                                            </div>
+                                            <div class='eat-description'>
+                                                {microgreen.soak}
+                                            </div>
                                         </div>
-                                        <div class='eat-description'>
-                                            {microgreen.soak}
+            
+                                        <div class='eat'>
+                                            <div class='eat-title'>
+                                            Germination:
+                                            </div>
+                                            <div class='eat-description'>
+                                                {microgreen.germination}
+                                            </div>
                                         </div>
-                                    </div>
+            
+                                        <div class='eat'>
+                                            <div class='eat-title'>
+                                                Under Lights / Sun:
+                                            </div>
+                                            <div class='eat-description'>
+                                                {microgreen.growing}
+                                            </div>
+                                        </div>
         
-                                    <div class='eat'>
-                                        <div class='eat-title'>
-                                           Germination:
-                                        </div>
-                                        <div class='eat-description'>
-                                            {microgreen.germination}
-                                        </div>
-                                    </div>
-        
-                                    <div class='eat'>
-                                        <div class='eat-title'>
-                                            Under Lights / Sun:
-                                        </div>
-                                        <div class='eat-description'>
-                                            {microgreen.growing}
-                                        </div>
-                                    </div>
-    
-                                    <div class='eat'>
-                                        <div class='eat-title'>
-                                            Seed Density:
-                                        </div>
-                                        <div class='eat-description'>
-                                            {microgreen.seedDensity}/tray
+                                        <div class='eat'>
+                                            <div class='eat-title'>
+                                                Seed Density:
+                                            </div>
+                                            <div class='eat-description'>
+                                                {microgreen.seedDensity}/tray
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -201,8 +200,8 @@
                         </div>
                     </div>
                 </div>
-            </div>
-        {/each}
+            {/each}
+        </div>
     </div>
 </main>
 
@@ -240,7 +239,6 @@
 
     /* Intro */
     .intro-container{
-        padding: 1rem;
         margin: auto;
         margin-bottom: 4rem;
         width: 1000px;
@@ -254,12 +252,6 @@
     }
 
     /* Microgreen Containers */
-    .container-list{
-        width: 1300px;
-        border-radius: 5px;
-        margin: auto;
-        padding: 1rem 0;
-    }
     .description-list{
         text-align: left;
         margin: 1.5rem auto;
@@ -376,4 +368,129 @@
         text-align: left;
     }
 
+    /* Below 1250 view width */
+    @media (max-width: 1250px) {
+        /* Elements */
+        img{
+            height: 340px;
+            width: 340px;
+            margin-bottom: 10px;
+        }
+        .container-list{
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        /* Styling for each individual microgreen row */
+        .container-border{
+            width: 360px;
+            margin: 2rem 1rem;
+            padding: 1rem 5px;
+        }
+        .container{
+            padding: 0.5rem 5px;
+            width: 340px;
+        }
+        .content{
+            width: 340px;
+            padding: 0rem;
+            margin: auto;
+        }
+        .body{
+            height: 34rem;
+        }
+        .description{
+            text-align: left;
+            padding: 0 1rem;
+            font-size: 1rem;
+            line-height: 1.5rem;
+        }
+
+        /* Bullet Point Listing of Microgreen Specifics */
+        .eat{
+            width: 340px;
+        }
+        .eat-title{
+            font-size: 1.25rem;
+            font-weight: 600;
+            padding: 0.25rem;
+        }
+        .eat-description{
+            font-size: 1.15rem;
+        }
+        .button-list{
+            padding: 0;
+        }
+        .button-drop{
+            width: 340px;
+            padding: 0;
+        }
+
+        /* Dropdown Info */
+        .drop-info{
+            width: 340px;
+            height: 20rem;
+            padding: 0rem;
+            text-align: left;
+        }
+    }
+
+    /* Below 1000 view width */
+    @media (max-width: 1000px) {
+
+        /* Paragraph Contents */
+        .intro-container{
+            width: 600px;
+            margin-bottom: 7rem;
+        }
+        .intro{
+            font-size: 2.5rem;
+            text-align: center;
+        }
+        .paragraph{
+            font-size: 1.25rem;
+            line-height: 1.5rem;
+        }
+        .main-title{
+            font-size: 3.5rem;
+            margin-bottom: 2rem;
+        }
+    }
+
+    /* Below 600 view width */
+    @media (max-width: 600px) {
+        .header{
+            padding: 1rem 0;
+        }
+        .header-border{
+            font-size: 3rem;
+            height: 70px;
+        }
+        .description-list{
+            margin: 1.5rem auto;
+            padding: 0 1rem;
+            font-size: 1.33rem;
+            font-weight: 600;
+            line-height: 1.70rem;
+        }
+        .description-list ul{
+            margin-left: 33px;
+            margin-top: 1rem;
+            font-weight: 500;
+            font-size: 1.25rem;
+        }
+        .main-title{
+            font-size: 3rem;
+            margin-bottom: 1.5rem;
+        }
+        /* Paragraph Contents */
+        .intro-container{
+            width: 96%;
+            padding: 2%;
+            margin: 0;
+            margin-bottom: 3rem;
+        }
+    }
 </style>
