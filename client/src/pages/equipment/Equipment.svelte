@@ -6,7 +6,9 @@
 <main>
     <div class='headers'>
         <div class='header'>
-            Equipment
+            <div class='header-border'>
+                Equipment
+            </div>
         </div>
         <!-- <div class='sub-headers'>
             <div>
@@ -48,16 +50,16 @@
 
 <style>
     main{
-        background-color: #414141;
+        background-color: #8b8b8b;
         min-height: 100vh;
     }
     img{
-        width: 325px;
-        height: 325px;
+        width: 350px;
+        height: 350px;
     }
     .scroller {
         display: flex;
-        height: 475px;
+        height: auto;
         overflow: auto;
         white-space: nowrap;
         scrollbar-width: auto;
@@ -74,12 +76,16 @@
         margin-bottom: 4rem;
     }
     .header{
-        background-color: black;
+        background-color: #736557;
         font-size: 4rem;
+        color: #aea79f;
+        padding: 2rem 0;
         font-weight: 800;
-        padding-top: 2rem;
-        padding-bottom: 2rem;
-        color: #cdcdcd;
+    }
+    .header-border{
+        background-color: black;
+        height: 95px;
+        padding-top: 1rem;
     }
     /* .sub-headers{
         background-color: #1a1a1a;
@@ -127,5 +133,44 @@
     }
     .bg-green{
         background-color: #41874a;
+    }
+
+    @media (max-width: 1500px) {
+        .body{
+            width: 100%;
+        }
+        .title{
+            margin: 6rem 0 1rem 0;
+            padding-left: 2%;
+            font-size: 4rem;
+            width: 98%;
+            border-bottom: 6px solid black;
+        }
+    }
+
+    /* Below 600 view width */
+    @media (max-width: 600px) {
+        .item{
+            padding: 1rem;
+            margin: 0.5rem;
+            height: 450px;
+        }
+        .item-name{
+            width: 350px;
+            white-space: normal;
+        }
+        .header{
+            padding: 1rem 0;
+        }
+        .header-border{
+            font-size: 3rem;
+            height: 70px;
+        }
+    }
+    /* Below 600 view width */
+    @media (max-width: 450px) {
+        .title{
+            font-size: 3.25rem;
+        }
     }
 </style>
