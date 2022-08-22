@@ -51,7 +51,7 @@
                 Contact Information
             </div>
             <div class='paragraph'>
-                All of our seeds are purchased through <a href="https://www.trueleafmarket.com/" target="_blank">True Leaf Market</a>. Check out their website!
+                All of our seeds are purchased through <a href="https://www.trueleafmarket.com/?rstr=16758" target="_blank">True Leaf Market</a>. Check out their website!
             </div>
             <div class='paragraph'>
                 If you have any questions or concerns please contact us via email: <a href = "mailto: arsementfarms@gmail.com">arsementfarms@gmail.com</a>

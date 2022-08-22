@@ -1,0 +1,52 @@
+[
+    {
+        "imgHand": "images/pages/puppies/bigChocolate/hand.jpg",
+        "imgHolding": "images/pages/puppies/bigChocolate/holding.jpg",
+        "color": "Chocolate (liver)",
+        "gender": "Female",
+        "coat": "Most likely mega-coat",
+        "pattern": "Liver w/ white markings on chin, chest, and tips of toes",
+        "weight": [262, 400, 630],
+        "price": 2000
+    },
+    {
+        "imgHand": "images/pages/puppies/smallChocolate/hand.jpg",
+        "imgHolding": "images/pages/puppies/smallChocolate/holding.jpg",
+        "color": "Chocolate (liver)",
+        "gender": "Female",
+        "coat": "Most likely mega-coat",
+        "pattern": "Liver w/ white markings on chin, chest, and tips of toes",
+        "weight": [194, 291, 468],
+        "price": 2000
+    },
+    {
+        "imgHand": "images/pages/puppies/parti/hand.jpg",
+        "imgHolding": "images/pages/puppies/parti/holding.jpg",
+        "color": "Chocolate (liver)",
+        "gender": "Male",
+        "coat": "Most likely mega-coat",
+        "pattern": "Parti",
+        "weight": [232, 325, 539],
+        "price": 2250
+    },
+    {
+        "imgHand": "images/pages/puppies/femaleBlack/hand.jpg",
+        "imgHolding": "images/pages/puppies/femaleBlack/holding.jpg",
+        "color": "Black",
+        "gender": "Female",
+        "coat": "Most likely mega-coat",
+        "pattern": "Black and silver (very likely roaned/ticked)",
+        "weight": [118, 174, 286],
+        "price": 2500
+    },    
+    {
+        "imgHand": "images/pages/puppies/maleBlack/hand.jpg",
+        "imgHolding": "images/pages/puppies/maleBlack/holding.jpg",
+        "color": "Black",
+        "gender": "Male",
+        "coat": "Most likely mega-coat",
+        "pattern": "Black with a very small white spot on his chest",
+        "weight": [106, 141, 268],
+        "price": 2250
+    }
+]

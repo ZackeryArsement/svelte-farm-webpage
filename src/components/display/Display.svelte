@@ -6,6 +6,7 @@
     import Microgreens from "../../pages/microgreens/Microgreens.svelte";
     import Mushrooms from "../../pages/mushrooms/Mushrooms.svelte";
     import Pumpkins from "../../pages/pumpkins/Pumpkins.svelte";
+    import Puppies from "../../pages/puppies/Puppies.svelte";
     import Questions from "../../pages/questions/Questions.svelte";
 </script>
 
@@ -25,6 +26,9 @@
         </Route>
         <Route path='pumpkins'>
             <Pumpkins />
+        </Route>
+        <Route path='puppies'>
+            <Puppies />
         </Route>
         <Route path='questions'>
             <Questions />

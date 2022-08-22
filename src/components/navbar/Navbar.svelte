@@ -8,6 +8,7 @@
     let SproutIcon = 'images/navbar/sprout.png'
     let PumpkinIcon = 'images/navbar/pumpkin.png'
     let MushroomIcon = 'images/navbar/mushroom.png'
+    let PuppyIcon = 'images/navbar/dog.png'
     let ToolsIcon = 'images/navbar/tools.png'
     let QuestionIcon = 'images/navbar/question.png'
 
@@ -48,6 +49,13 @@
             brd: "#aea79f"
         },
         {
+            ref: PuppyIcon,
+            link: "/puppies",
+            alt: "Puppy Icon",
+            bg: "#6fadbf",
+            brd: "#97c7d5"
+        },
+        {
             ref: QuestionIcon,
             link: "/questions",
             alt: "Question Icon",
@@ -69,13 +77,13 @@
                 {#each IconArray as icon}
                     <div class='img-border' style={`background-color: ${icon.brd}`}>
                         <Link to={icon.link}>
-                            <img src={icon.ref} alt={icon.alt} style={`background-color: ${icon.bg}`}/>
+                            <img src={icon.ref} alt={icon.alt} style={`background-color: ${icon.bg}`} class="navImg"/>
                         </Link>
                     </div>
                 {/each}
             </Router>
     </div>
-    <div>
+    <div class="arrowButton">
         <button on:click={() => clickArrow()}>
             <img class='arrow' src={CurrentArrow} alt='arrow-symbol' />
         </button>
@@ -93,7 +101,6 @@
     }
 
     button{
-        text-align: center;
         position: relative;
         top: 50%;
         transform: translate(0, -50%);
@@ -101,9 +108,11 @@
         background-color: #aea79f;
         border-top-right-radius: 5px;
         border-bottom-right-radius: 5px;
+        text-align: center;
+        margin-left: -16px;
     }
 
-    img{
+    .navImg{
         height: 96px;
         width: 96px;
         border-radius: 15px;
@@ -131,5 +140,38 @@
         padding: 0;
         width: 15px;
         height: 30px;
+        margin-left: 0;
     }
+
+    /* Below 600 view width */
+    @media (max-width: 600px) {
+        main{
+            width: 115px;
+        }
+
+        .navImg{
+            height: 48px;
+            width: 48px;
+            border-radius: 7px;
+            margin: 4px auto;
+            padding: 8px;
+        }
+
+        .navbar{
+            width: 90px;
+            box-shadow: 2px 2px 2px #888888;
+        }
+
+        .img-border{
+            margin: 0.5rem auto;
+            border-radius: 7px;
+            width: 72px;
+            height: 72px;
+        }
+
+        .arrow{
+            width: 10px;
+            height: 20px;
+        }
+	}
 </style>
