@@ -18,24 +18,29 @@
             Schnauzer Puppies
         </div>
     </div>
+
     <div class="container-list">
         <!-- <div class='main-title'>
             The Parents
         </div> -->
         <div class='container-border'>
             <div class='container'>
+                <div class="allBorder">
+                    <img class="allPuppy" src='images/pages/puppies/all.jpg' alt='puppy'>
+                </div>
+
                 <!-- Image Div -->
                 <div>
                     <div class="parentName">
                         Dove (mother)
                     </div>
-                    <img src='/images/pages/puppies/parents/doveFerns1.jpg' alt='Puppy'/>
+                    <img class="pupImg" src='/images/pages/puppies/parents/doveFerns1.jpg' alt='Puppy'/>
                 </div>
                 <div>
                     <div class="parentName">
                         Duke (father)
                     </div>
-                    <img src='/images/pages/puppies/parents/duke2.jpg' alt='Puppy'/>
+                    <img class="pupImg" src='/images/pages/puppies/parents/duke2.jpg' alt='Puppy'/>
                 </div>
                 <div class='drop-info'>
                     <div class='eating'>
@@ -43,7 +48,7 @@
                             Arsement Farms has had a litter of 5 schnauzer puppies from our lovely Dove! Dove is a 13 lb liver-tan, miniature schnauzer. She is mega-coated and double-ticked (roaned), meaning the white areas on her coat has liver mixed into it, which creates for a very beautiful coat. She has a very sweet temperament and is a great momma!
                         </div>
                         <div class='parentText'>
-                            The puppies were born on August 3rd, 2022 and were just over 2 weeks old during the posting of these pictures (we will try to update pictures fairly reguarly.) We are currently accepting deposits for puppies ($500), and the puppies will be available to take home at 8 weeks old, September 28th.
+                            The puppies were born on August 3rd, 2022 and were just over 4 weeks old during the posting of these pictures (we will try to update pictures fairly reguarly.) We are currently accepting deposits for puppies ($500), and the puppies will be available to take home at 8 weeks old, September 28th.
                         </div>
                         <div class="parentText">
                             Please contact 409-673-0734 if you have an interest in any of the puppies listed below. Currently all puppies are available!
@@ -56,7 +61,7 @@
                         </div>
 
                         <div class='parentText'>  
-                            The mother has slightly faded but the father has had no fading, so we expect the puppies to either not fade or have minimal fading. Additionally, we expect the three liver puppies to fall within 10-13 lbs at maturity but both of our black puppies are looking to be borderline teacup/toy size, possibly 6-9 lbs.
+                            The mother has slightly faded but the father has had no fading, so we expect the puppies to either not fade or have minimal fading. Additionally, we expect the three liver puppies to fall within 10-13 lbs at maturity but both of our black puppies are looking to be borderline teacup/toy size, possibly 7-10 lbs.
                         </div>
                     </div>
                 </div>    
@@ -70,10 +75,10 @@
                 <div class='container'>
                     <!-- Image Div -->
                         <div>
-                            <img src={puppy.imgHand} alt='Puppy'/>
+                            <img class="pupImg" src={puppy.imgHand} alt='Puppy'/>
                         </div>
                         <div>
-                            <img src={puppy.imgHolding} alt='Puppy'/>
+                            <img class="pupImg" src={puppy.imgHolding} alt='Puppy'/>
                         </div> 
                     <div class='drop-info'>
                         <div class='eating'>
@@ -120,6 +125,16 @@
 </main>
 
 <style>
+    .allBorder{
+        width: 1250px;
+        margin: 0 auto;
+        border-radius: 5px;
+    }
+    .allPuppy{
+        height: 510px;
+        width: 720px;
+        padding: 2rem;
+    }
     .parentText{
         font-size: 1.25rem;
         line-height: 1.4rem;
@@ -157,7 +172,7 @@
     }
 
     /* Elements */
-    img{
+    .pupImg{
         height: 450px;
         width: 450px;
         background-color: aliceblue;
@@ -231,8 +246,13 @@
 
     /* Below 1250 view width */
     @media (max-width: 1250px) {
+        .allPuppy{
+            height: 60vw;
+            width: 80vw;
+            padding: 2rem;
+        }
         /* Elements */
-        img{
+        .pupImg{
             height: 40vw;
             width: 40vw;
             margin-bottom: 10px;
@@ -288,7 +308,7 @@
 
     /* Below 600 view width */
     @media (max-width: 600px) {
-        img{
+        .pupImg{
             height: 80vw;
             width: 80vw;
         }
