@@ -15,7 +15,7 @@
 <main>
     <div class='header'>
         <div class='header-border'>
-            Schnauzer Puppies
+            Schnauzer Puppies!
         </div>
     </div>
 
@@ -308,9 +308,15 @@
 
     /* Below 600 view width */
     @media (max-width: 600px) {
+        .allPuppy{
+            height: 69vw;
+            width: 92vw;
+            padding: 2rem 0;
+        }
         .pupImg{
-            height: 80vw;
-            width: 80vw;
+            height: 90vw;
+            width: 90vw;
+            padding: 0;
         }
         .header{
             padding: 1rem 0;
@@ -325,13 +331,18 @@
         } */
         .container{
             width: 100%;
-            /* margin: 0; */
+            padding: 0;
+            margin: 0;
         }
         .container-border{
-            padding: 0;
-            margin: 1rem 0;
+            border-radius: 0;
+            background-color: #70523f;
+            padding: 1.5rem 0;
+            margin: 0;
+            width: 100%;
         }
         .container-list{
+            width: 100%;
             margin: 0;
             padding: 0;
         }
